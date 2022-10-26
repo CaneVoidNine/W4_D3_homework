@@ -1,0 +1,45 @@
+body {
+  color: white;
+  margin: 0;
+  font-weight: bold;
+  font-size: larger;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  height: 73.2vh;
+}
+
+.flex-item-1 {
+  background-color: #111023;
+  height: 10vh;
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+
+.flex-item-2 {
+  color: black;
+  width: 50%;
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+
+.flex-item-3 {
+  background-color: #320388;
+  width: 25%;
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+.flex-item-4 {
+  background-color: #c22177;
+  width: 25%;
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+.flex-item-5 {
+  background-color: #111023;
+  display: flex;
+  height: 10vh;
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
